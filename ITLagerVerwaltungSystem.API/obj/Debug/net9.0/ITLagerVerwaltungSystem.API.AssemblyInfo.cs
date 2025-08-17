@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITLagerVerwaltungSystem.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b75e436606af3340c028592f5cf87d94ab557363")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+913e8307b5097c13c56be87e00b18ee6b4d99ce3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITLagerVerwaltungSystem.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITLagerVerwaltungSystem.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

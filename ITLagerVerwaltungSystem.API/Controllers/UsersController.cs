@@ -8,7 +8,7 @@ namespace ITLagerVerwaltungSystem.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "Manager,Employee,WarehouseStaff")]
+    [Authorize(Roles = "Manager,WarehouseStaff")]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -34,21 +34,6 @@ namespace ITLagerVerwaltungSystem.API.Controllers
             return Ok(user);
         }
 
-        // POST: api/users/register
-        [HttpPost("register")]
-        public IActionResult RegisterUser([FromBody] UserRegisterDto dto)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            // Role is always set to 'Employee' by the service
-            var registered = _userService.RegisterUser(dto);
-            if (registered?.UserName == null)
-                return BadRequest();
-            var userIdHash = registered.UserName.GetHashCode();
-            return CreatedAtAction(nameof(GetUser), new { id = userIdHash }, registered);
-        }
 
         // PUT: api/users/{id}
         [HttpPut("{id}")]

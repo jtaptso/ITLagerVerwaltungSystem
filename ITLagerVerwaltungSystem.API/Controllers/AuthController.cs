@@ -41,9 +41,11 @@ namespace ITLagerVerwaltungSystem.API.Controllers
             if (!result.Succeeded)
                 return StatusCode(500, "User creation failed! Please check user details and try again.");
 
-            if (!await _roleManager.RoleExistsAsync(model.Role))
-                await _roleManager.CreateAsync(new IdentityRole(model.Role));
-            await _userManager.AddToRoleAsync(user, model.Role);
+            // Always assign 'Employee' role for self-registration
+            var defaultRole = "Employee";
+            if (!await _roleManager.RoleExistsAsync(defaultRole))
+                await _roleManager.CreateAsync(new IdentityRole(defaultRole));
+            await _userManager.AddToRoleAsync(user, defaultRole);
 
             return Ok("User created successfully!");
         }
