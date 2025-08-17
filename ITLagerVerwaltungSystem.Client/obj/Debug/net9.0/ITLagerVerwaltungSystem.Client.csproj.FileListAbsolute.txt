@@ -199,8 +199,6 @@ C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Clien
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.oontodgsar.wasm
-C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.m26a99bs6g.pdb
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.tnyc7xpluy.wasm.gz
@@ -403,8 +401,6 @@ C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Clien
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.oontodgsar.wasm.gz
-C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.m26a99bs6g.pdb.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\ITLagerVerwaltungSystem.Client.staticwebassets.runtime.json
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\ITLagerVerwaltungSystem.Client.staticwebassets.endpoints.json
@@ -1068,9 +1064,6 @@ C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Clien
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\l414wggho7-tjcz0u77k5.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\hzyv08kdt4-tptq2av103.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\jo6t8onihp-lfu7j35m59.gz
-C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\rhr5k3n45p-oontodgsar.gz
-C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\kziiaaj1zp-m26a99bs6g.gz
-C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\58fs9usjju-7qf4dm44nm.gz
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\staticwebassets.development.json
@@ -1080,3 +1073,11 @@ C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Clien
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\refint\ITLagerVerwaltungSystem.Client.dll
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\ITLagerVerwaltungSystem.Client.pdb
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\ref\ITLagerVerwaltungSystem.Client.dll
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.lsg0wdtupg.wasm
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.qhf5cqu95d.pdb
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.lsg0wdtupg.wasm.gz
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\bin\Debug\net9.0\wwwroot\_framework\ITLagerVerwaltungSystem.Client.qhf5cqu95d.pdb.gz
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\ITLagerVerwaltungSystem.Client.sourcelink.json
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\rhr5k3n45p-lsg0wdtupg.gz
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\kziiaaj1zp-qhf5cqu95d.gz
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Client\obj\Debug\net9.0\compressed\58fs9usjju-8e0a5mk9bx.gz

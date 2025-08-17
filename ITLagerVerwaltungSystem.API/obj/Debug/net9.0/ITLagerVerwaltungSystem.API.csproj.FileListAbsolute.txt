@@ -180,3 +180,4 @@ C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.API\b
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.API\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.API\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.API\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.API\obj\Debug\net9.0\ITLagerVerwaltungSystem.API.sourcelink.json

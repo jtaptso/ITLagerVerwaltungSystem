@@ -10,3 +10,4 @@ C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Core\
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Core\obj\Debug\net9.0\ITLagerVerwaltungSystem.Core.pdb
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Core\obj\Debug\net9.0\ref\ITLagerVerwaltungSystem.Core.dll
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Core\obj\Debug\net9.0\ITLagerVerwaltungSystem.Core.csproj.AssemblyReference.cache
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Core\obj\Debug\net9.0\ITLagerVerwaltungSystem.Core.sourcelink.json

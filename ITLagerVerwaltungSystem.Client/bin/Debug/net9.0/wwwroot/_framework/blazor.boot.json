@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ITLagerVerwaltungSystem.Client",
   "resources": {
-    "hash": "sha256-xLmCAOano4s2zzC0D43fpU/9hlV0I/ku61No4mLT88s=",
+    "hash": "sha256-jKj2Di5S7IF6qs9eaqGeY/Est9DlAOL+aJ9iZbtjfZ8=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.tnyc7xpluy.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.t32damlu4o.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "ITLagerVerwaltungSystem.Client.oontodgsar.wasm": "ITLagerVerwaltungSystem.Client.wasm",
-      "ITLagerVerwaltungSystem.Client.m26a99bs6g.pdb": "ITLagerVerwaltungSystem.Client.pdb"
+      "ITLagerVerwaltungSystem.Client.lsg0wdtupg.wasm": "ITLagerVerwaltungSystem.Client.wasm",
+      "ITLagerVerwaltungSystem.Client.qhf5cqu95d.pdb": "ITLagerVerwaltungSystem.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.50iqa8w3ys.js": "sha256-pQdXuxfVeqYHOwd5HUM2ERd7OnXirj9JTF37b6OdTAc="
@@ -412,10 +412,10 @@
       "WindowsBase.361km0836k.wasm": "sha256-FacUCEIJYTnbOWgX/R9QP2QnurqRZwRIkDAH0N9z69s=",
       "mscorlib.qiu3j3msqk.wasm": "sha256-QvztpxTOEw4aMIl7zP3QtsPLNv/IWaK5wq22J4ReGrA=",
       "netstandard.lp03u0xxi4.wasm": "sha256-WVQsxULiAiEbyXLKolS7txnWVT82SsvsuMe4jJ+SqqI=",
-      "ITLagerVerwaltungSystem.Client.oontodgsar.wasm": "sha256-KIlM4LRGz3kNjcQ29YoV+A1Kp/+W5EbsAx9HljK5iBg="
+      "ITLagerVerwaltungSystem.Client.lsg0wdtupg.wasm": "sha256-++bnnb9j4LaVF+X7pZeXceKzT+y4qt066FOISefIiVE="
     },
     "pdb": {
-      "ITLagerVerwaltungSystem.Client.m26a99bs6g.pdb": "sha256-PloYBa5NnXJR6ob2hMUyiWtPQdBmTwDmkjVGS0D26zY="
+      "ITLagerVerwaltungSystem.Client.qhf5cqu95d.pdb": "sha256-rjFJaX/Hou4nCrYqEOz8pAvfFnYKCxFiS4Of85YmHe8="
     }
   },
   "cacheBootResources": true,

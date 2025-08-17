@@ -15,3 +15,4 @@ C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Infra
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Infrastructure\obj\Debug\net9.0\ref\ITLagerVerwaltungSystem.Infrastructure.dll
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Infrastructure\bin\Debug\net9.0\ITLagerVerwaltungSystem.Infrastructure.runtimeconfig.json
 C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Infrastructure\obj\Debug\net9.0\ITLagerVerwaltungSystem.Infrastructure.genruntimeconfig.cache
+C:\Users\11031462\projects\ITLagerVerwaltungSystem\ITLagerVerwaltungSystem.Infrastructure\obj\Debug\net9.0\ITLagerVerwaltungSystem.Infrastructure.sourcelink.json
