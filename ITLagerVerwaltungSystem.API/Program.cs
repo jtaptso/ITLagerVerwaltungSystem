@@ -107,7 +107,8 @@ app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<ITLagerVerwaltungSystem.Infrastructure.AppDbContext>();
-    ITLagerVerwaltungSystem.Infrastructure.AppDbContext.SeedData(context);
+    // Seed roles and WarehouseStaff user
+    await ITLagerVerwaltungSystem.Infrastructure.IdentitySeeder.SeedRolesAndUsersAsync(scope.ServiceProvider);
 }
 
 app.Run();
