@@ -42,6 +42,7 @@ namespace ITLagerVerwaltungSystem.API.Controllers
             {
                 return BadRequest(ModelState);
             }
+            // Role is always set to 'Employee' by the service
             var registered = _userService.RegisterUser(dto);
             if (registered?.UserName == null)
                 return BadRequest();
