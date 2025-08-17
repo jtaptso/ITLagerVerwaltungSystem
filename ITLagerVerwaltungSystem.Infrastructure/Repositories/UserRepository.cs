@@ -4,9 +4,5 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ITLagerVerwaltungSystem.Infrastructure.Repositories
 {
-    public class UserRepository : GenericRepository<User>, IUserRepository
-    {
-        public UserRepository(AppDbContext context) : base(context) { }
-        // Implement custom methods for User if needed
-    }
+    // UserRepository removed for Identity compatibility
 }
