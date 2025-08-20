@@ -44,8 +44,9 @@ namespace JwtTokenGenerator
                 signingCredentials: credentials);
 
             string jwt = new JwtSecurityTokenHandler().WriteToken(token);
-            Console.WriteLine("Your JWT token:");
-            Console.WriteLine(jwt);
+            Console.WriteLine($"Your JWT token: {jwt}");
+
+            Console.ReadLine();
         }
     }
 }

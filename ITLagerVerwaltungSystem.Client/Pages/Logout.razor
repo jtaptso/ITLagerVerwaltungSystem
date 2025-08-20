@@ -1,0 +1,15 @@
+@page "/logout"
+@inject ApiAuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Navigation
+
+<PageTitle>Logout</PageTitle>
+
+<h3>Logging out...</h3>
+
+@code {
+    protected override void OnInitialized()
+    {
+        AuthStateProvider.ClearToken();
+        Navigation.NavigateTo("/login");
+    }
+}

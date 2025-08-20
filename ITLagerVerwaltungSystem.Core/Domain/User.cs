@@ -4,16 +4,9 @@ namespace ITLagerVerwaltungSystem.Core.Domain
     {
         Manager,
         Employee,
+        WarehouseStaff,
         Gast
     }
 
-    public class User
-    {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? Email { get; set; }
-        public Role Role { get; set; }
-        public ICollection<Order>? Orders { get; set; }
-        public ICollection<Notification>? Notifications { get; set; }
-    }
+    // Custom User class removed for Identity compatibility
 }

@@ -14,13 +14,28 @@ namespace ITLagerVerwaltungSystem.Core.Services
 
         public UserRegisterDto RegisterUser(UserRegisterDto dto)
         {
-            // For demo, just return the input
-            return dto;
+            // Always assign 'Employee' as the default role on registration
+            var registered = new UserRegisterDto
+            {
+                UserName = dto.UserName,
+                Email = dto.Email,
+                Password = dto.Password
+            };
+
+            // Add to user list as Employee (simulate persistence)
+            _users.Add(new UserUpdateDto
+            {
+                UserName = dto.UserName,
+                Email = dto.Email,
+                Role = "Employee"
+            });
+
+            return registered;
         }
 
-        public UserUpdateDto UpdateUser(int id, UserUpdateDto dto)
+        public UserUpdateDto? UpdateUser(int id, UserUpdateDto dto)
         {
-            var user = _users.FirstOrDefault(u => u.UserName.GetHashCode() == id);
+            var user = _users.FirstOrDefault(u => u.UserName?.GetHashCode() == id);
             if (user == null) return null;
             user.UserName = dto.UserName;
             user.Email = dto.Email;

@@ -83,5 +83,23 @@ namespace ITLagerVerwaltungSystem.API.Controllers
                 Role = userRoles.Count > 0 ? userRoles[0] : string.Empty
             });
         }
+
+        [HttpPost("resetpassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDirectRequest model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return BadRequest("User not found.");
+            }
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var result = await _userManager.ResetPasswordAsync(user, token, model.NewPassword);
+            if (!result.Succeeded)
+            {
+                return StatusCode(500, "Password reset failed.");
+            }
+            return Ok("Password has been reset successfully.");
+        }
     }
 }
