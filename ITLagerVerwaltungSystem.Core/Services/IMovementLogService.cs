@@ -6,8 +6,8 @@ namespace ITLagerVerwaltungSystem.Core.Services
 {
     public interface IMovementLogService
     {
-        IEnumerable<string> GetAllMovementLogs();
-        IEnumerable<string> GetMovementLogsForMaterial(int materialId);
+        IEnumerable<MovementLogCreateDto> GetAllMovementLogs();
+        IEnumerable<MovementLogCreateDto> GetMovementLogsForMaterial(int materialId);
 
         MovementLogCreateDto LogMovement(MovementLogCreateDto dto);
     }

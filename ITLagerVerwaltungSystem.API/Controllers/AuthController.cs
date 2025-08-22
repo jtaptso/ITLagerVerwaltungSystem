@@ -28,6 +28,12 @@ namespace ITLagerVerwaltungSystem.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
+            // Validate required fields
+            if (string.IsNullOrWhiteSpace(model.UserName) || string.IsNullOrWhiteSpace(model.Email) || string.IsNullOrWhiteSpace(model.Password))
+            {
+                return BadRequest("Username, email, and password are required.");
+            }
+
             var userExists = await _userManager.FindByNameAsync(model.UserName);
             if (userExists != null)
                 return StatusCode(409, "User already exists!");
@@ -53,20 +59,31 @@ namespace ITLagerVerwaltungSystem.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
+            // Validate required fields
+            if (string.IsNullOrWhiteSpace(model.UserName) || string.IsNullOrWhiteSpace(model.Password))
+            {
+                return BadRequest("Username and password are required.");
+            }
+
             var user = await _userManager.FindByNameAsync(model.UserName);
-            if (user == null || !await _userManager.CheckPasswordAsync(user, model.Password))
+            if (user == null || string.IsNullOrWhiteSpace(user.UserName) || !await _userManager.CheckPasswordAsync(user, model.Password))
                 return Unauthorized("Invalid username or password!");
 
             var userRoles = await _userManager.GetRolesAsync(user);
             var authClaims = new[]
             {
-                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Name, user.UserName ?? string.Empty),
                 new Claim(ClaimTypes.Email, user.Email ?? string.Empty),
                 new Claim(ClaimTypes.Role, userRoles.Count > 0 ? userRoles[0] : string.Empty),
                 new Claim(JwtRegisteredClaimNames.Jti, System.Guid.NewGuid().ToString())
             };
 
-            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var jwtKey = _configuration["Jwt:Key"];
+            if (string.IsNullOrWhiteSpace(jwtKey))
+            {
+                return StatusCode(500, "JWT key is missing in configuration.");
+            }
+            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
             var token = new JwtSecurityToken(
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
@@ -78,8 +95,8 @@ namespace ITLagerVerwaltungSystem.API.Controllers
             return Ok(new AuthResponse
             {
                 Token = new JwtSecurityTokenHandler().WriteToken(token),
-                UserName = user.UserName,
-                Email = user.Email,
+                UserName = user.UserName ?? string.Empty,
+                Email = user.Email ?? string.Empty,
                 Role = userRoles.Count > 0 ? userRoles[0] : string.Empty
             });
         }

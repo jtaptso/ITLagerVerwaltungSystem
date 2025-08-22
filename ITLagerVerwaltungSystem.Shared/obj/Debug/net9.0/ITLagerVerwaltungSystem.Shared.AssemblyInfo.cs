@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITLagerVerwaltungSystem.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1af0de6d32cc2c5c8551e18674a9fd054950d1d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bdc83128887279373128be8bdbc9c1d68e3f634")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITLagerVerwaltungSystem.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITLagerVerwaltungSystem.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

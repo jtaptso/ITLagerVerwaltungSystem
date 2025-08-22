@@ -1,0 +1,93 @@
+/* Homepage Styles */
+.home-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f3f4f8;
+}
+
+.home-navbar {
+    background: #002366;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-logo {
+    height: 48px;
+    margin-left: 1rem;
+}
+
+.home-navlinks {
+    margin-right: 2rem;
+}
+
+.home-navlink {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.home-navlink:last-child {
+    margin-right: 0;
+}
+
+.home-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #6c6c6c;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.home-subtext {
+    font-size: 1.2rem;
+    color: #6c6c6c;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.home-btn-login {
+    background: #00a3e0;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home-btn-register {
+    border: 2px solid #00a3e0;
+    color: #00a3e0;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home-footer {
+    background: #002366;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}

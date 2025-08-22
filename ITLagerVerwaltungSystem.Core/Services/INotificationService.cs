@@ -6,7 +6,10 @@ namespace ITLagerVerwaltungSystem.Core.Services
 {
     public interface INotificationService
     {
-        IEnumerable<string> GetPendingNotifications();
+        IEnumerable<NotificationDto> GetPendingNotifications();
         bool ApproveNotification(int id);
+        bool MarkAsUnread(int id);
+        NotificationDto CreateNotification(string userId, string message);
+        IEnumerable<NotificationDto> GetNotificationsForUser(string userId);
     }
 }

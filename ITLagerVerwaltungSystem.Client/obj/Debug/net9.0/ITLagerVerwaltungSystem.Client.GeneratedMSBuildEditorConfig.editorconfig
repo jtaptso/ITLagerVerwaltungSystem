@@ -28,10 +28,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/11031462/projects/ITLagerVerwaltungSystem/ITLagerVerwaltungSystem.Client/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/11031462/projects/ITLagerVerwaltungSystem/ITLagerVerwaltungSystem.Client/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -55,3 +51,7 @@ build_metadata.AdditionalFiles.CssScope = b-myqyvpqkxa
 [C:/Users/11031462/projects/ITLagerVerwaltungSystem/ITLagerVerwaltungSystem.Client/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-06xo5slkur
+
+[C:/Users/11031462/projects/ITLagerVerwaltungSystem/ITLagerVerwaltungSystem.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-fphptv8td7
